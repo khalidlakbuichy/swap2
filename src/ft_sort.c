@@ -6,7 +6,7 @@
 /*   By: klakbuic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/12 08:51:23 by klakbuic          #+#    #+#             */
-/*   Updated: 2024/02/26 10:00:31 by klakbuic         ###   ########.fr       */
+/*   Updated: 2024/02/26 11:49:08 by klakbuic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,9 +95,4 @@ void	ft_sort_stack(t_stack *a, t_stack *b)
 		push_all_2b(a, b);
 		push_back_2a(a, b);
 	}
-	puts("stack a: ----------------------------------------------");
-	ft_lstiter(a->top, ft_print);
-	puts("stack b: ----------------------------------------------");
-	ft_lstiter(b->top, ft_print);
-	printf("stack b:%d\n", b->size);
 }

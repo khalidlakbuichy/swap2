@@ -6,16 +6,12 @@
 /*   By: klakbuic <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 12:42:42 by khalid            #+#    #+#             */
-/*   Updated: 2024/02/26 09:53:59 by klakbuic         ###   ########.fr       */
+/*   Updated: 2024/02/26 11:49:54 by klakbuic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 
-void	ft_print(void *data)
-{
-	printf("%d\n", *((int *)data));
-}
 void	ft_print_error(void)
 {
 	ft_putendl_fd("Error", STDERR_FILENO);
